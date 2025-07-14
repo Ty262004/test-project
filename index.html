@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Profile</title>
+  <link rel="stylesheet" href="/src/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84MR+4kqVGRNSgIGLF/aIDqQb7xQ2VcrdIwxfjThSH8CSR7PBEakCr51Ck+vw/U6swU2Im1vvX8SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black">
+  <div class="container flex justify-center items-center h-[100vh] m-auto">
+    <div class="Profile relative">
+      <div class="dot-1 dot"></div>
+      <div class="dot-2"></div>
+      <div class="border bg-white/30 backdrop-blur-sm p-[30px] flex justify-center flex-col items-center py-[50px] rounded-[25px] overflow-hidden">
+        <h1 class="text-[30px] font-bold">Change Profile</h1>
+        <input type="file" class="hidden" name="" id="file">
+        <label for="file" id="btnChange" class="cursor-pointer w-[200px] h-[200px] flex justify-center items-center border rounded-full text-[30px] font-bold">
+          <i id="iconProfile" class="fa-solid border p-[10px_12px_10px_12px] rounded-full fa-plus"></i>
+          <img src="" id="img" class="img w-[200px] hidden rounded-full object-cover h-[200px]" alt="">
+        </label>
+        <h1 class="name">Chang Seavty</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Js -->
+  <script src="/ChangeProfile.js""></script>
+</body>
+</html>

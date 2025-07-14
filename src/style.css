@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Profile {
+  @apply w-[350px];
+  @apply rounded-[30px];
+  @apply p-1;
+  @apply border-2;
+}
+
+.Profile img {
+  @apply border-2;
+  @apply p-2;
+}
+
+.name {
+  @apply text-[30px];
+  @apply font-bold;
+}
+
+.dot-1 {
+  @apply absolute;
+  @apply top-[-50px];
+  @apply right-[-50px];
+  @apply w-[150px];
+  @apply h-[150px];
+  @apply bg-blue-500;
+  @apply rounded-full;
+  @apply z-[-2];
+}
+
+.dot-2 {
+  @apply absolute;
+  @apply bottom-[-50px];
+  @apply left-[-50px];
+  @apply w-[150px];
+  @apply h-[150px];
+  @apply bg-amber-500;
+  @apply rounded-full;
+  @apply z-[-2];
+}
